@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment
+venv/
+.env
+.venv/
+env/
+
+# Data
+*.csv
+*.xlsx
+*.xls
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# IDE / OS files
+.DS_Store
+.vscode/
+.idea/
+*.log

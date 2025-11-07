@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Model Insights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Model Insights</h1>
+    <div>{{ chart|safe }}</div>
+    {{ tables[0]|safe }}
+    <a href="/">⬅ Back</a>
+  </div>
+</body>
+</html>
