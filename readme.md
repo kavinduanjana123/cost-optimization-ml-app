@@ -1,4 +1,4 @@
-# 💰 Cost Optimization ML System
+# 💰 Cost Optimization ML System Study Model
 
 A machine learning-based cost optimization web application powered by:
 - Flask (Frontend)
